@@ -23,7 +23,7 @@ Use directly in the browser via [jsDelivr](https://www.jsdelivr.com/):
 
 ```html
 <script type="module">
-  import { S3Client } from "https://cdn.jsdelivr.net/gh/aws-sdk/client-s3@3.844.0/index.min.mjs";
+  import { S3Client } from "https://cdn.jsdelivr.net/gh/aws-sdk/client-s3@3.932.0/index.min.mjs";
 
   const client = new S3Client({ region: "us-east-1" });
 </script>
@@ -71,7 +71,7 @@ Examples:
 https://cdn.jsdelivr.net/gh/aws-sdk/client-sts/index.min.mjs
 
 // Specific
-https://cdn.jsdelivr.net/gh/aws-sdk/client-sts@3.844.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/aws-sdk/client-sts@3.932.0/index.min.mjs
 ```
 
 ---
@@ -80,7 +80,7 @@ https://cdn.jsdelivr.net/gh/aws-sdk/client-sts@3.844.0/index.min.mjs
 
 Using external scripts from a CDN in production requires care. To lock versions and ensure consistency:
 
-✅ Use fixed versions (`@3.844.0`)
+✅ Use fixed versions (`@3.932.0`)
 ❌ Avoid always pointing to `latest` in production.
 
 ---
